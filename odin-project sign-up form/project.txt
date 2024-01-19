@@ -1,0 +1,26 @@
+<-----About The Project----->
+
+I have to create a sign up form which validates the user's inputs and show a message that the user has been succesfully signed up & if not give a message
+
+<-----My Thought Process----->
+
+According to the design the odin project gave me, I have to create a classic sign-up form where in the left side there is a solid color as a background with a logo in it and in the right side there
+should be a form element with,
+                            1. First name input
+                            2. Last name input
+                            3. Email input
+                            4. Confirm email input
+                            5. Password input
+                            6. Confirm password input
+                            7. A button that not only submits the data but act as trigger that the user is done signing up and tells the html to show the thank you page.
+And last but not least under the form should be a a log-in button.
+
+<-----Assets----->
+
+    1.animated avatar :-  
+    , <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
+
+<----Attributions----->
+
+    1.Storyset.
+    2.The Odin Project.

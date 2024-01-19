@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Atlantic</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div id="first-section">
+        <img src="./assets/Sign up.gif" alt="animation">
+        <i>Atlantic<sup>TM</sup></i>
+    </div>
+    <div id="second-section">
+        <h1>Sign Up To Atlantic</h1>
+        <form action method id="form">
+            <div class="input-container">
+                <input type="text" id="first-name" required>
+                <label for="first-name" >First Name</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="last-name" required>
+                <label for="last-name" id="last">Last Name</label>
+            </div>
+            <div class="input-container"> 
+                <input type="email" id="email" required>
+                <label for="email" >Email</label>
+            </div>
+            <div class="input-container"> 
+                <input type="text" id="username" required>
+                <label for="username" >Username</label>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" minlength="3" maxlength="15" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <label for="password" >Password</label>
+            </div>
+            <div class="input-container">
+                <input type="password" id="c-password" minlength="3" maxlength="15" required>
+                <label for="c-password" id="confirm">Confirm Password</label>
+            </div>
+            <button type="submit">Create Account!</button>
+        </form>
+        <h2>Already An Atlantean? <a href="https://www.theodinproject.com/dashboard">Log In</a></h2>
+    </div>
+    <div id="error">
+        <img src="./assets/Forgot password.gif" alt="Password doesnt match!">
+        <h2>Password or Email doesn't match</h2>
+    </div>
+    <div id="thank-you">
+        <img src="./assets/Succesful sign-up.gif" alt="successful sign up">
+        <h2>Thank You For Signing Up!</h2>
+    </div>
+</body>
+</html>
